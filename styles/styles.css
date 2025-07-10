@@ -27,14 +27,15 @@ header {
   border: none;
   cursor: pointer;
   background-color: #4e47ff;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.17s ease, background-color 0.17s ease,
+    color 0.17s ease;
   border-radius: 10px;
 }
 
 .primary-btn:hover {
+  transform: scale(1.05);
   background-color: #221aff;
   color: orange;
-  transform: scale(1.05);
 }
 
 .primary-title {
@@ -53,7 +54,7 @@ nav {
 
 nav h2 {
   font-size: 35px;
-  font-weight: 1000px;
+  font-weight: 1000;
   color: #4e47ff;
 }
 
@@ -163,6 +164,7 @@ main {
 /* Get In Touch Section starts  */
 
 .form {
+  height: 632px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,4 +202,49 @@ main {
 }
 .form form textarea::placeholder {
   font-size: 20px;
+}
+
+/* footer starts here */
+footer {
+  height: 428px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.footer-container {
+  max-width: 531px;
+}
+.footer-container h2 {
+  font-size: 100px;
+  font-weight: 1000;
+  color: #4e47ff;
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 18px;
+  color: #7f7f7f;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.footer-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.footer-container ul li {
+  list-style-type: none;
+}
+.footer-container ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #7f7f7f;
+}
+.footer-container ul li a:hover {
+  color: orange;
 }
