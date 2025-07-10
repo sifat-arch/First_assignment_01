@@ -37,6 +37,10 @@ header {
   transform: scale(1.05);
 }
 
+.primary-title {
+  font-size: 43px;
+  font-weight: 800;
+}
 /* nav starts */
 nav {
   max-width: 1140px;
@@ -53,6 +57,11 @@ nav h2 {
   color: #4e47ff;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 116px;
+}
 /* banner section starts */
 .banner {
   max-width: 900px;
@@ -64,4 +73,19 @@ nav h2 {
   font-weight: 800;
   text-align: center;
   margin-bottom: 37px;
+}
+/* action section starts here */
+.action {
+  display: flex;
+  gap: 220px;
+  align-items: center;
+}
+
+.actions {
+  width: 517px;
+}
+.actions p {
+  font-size: 25px;
+  color: #8987a1;
+  padding: 23px 0;
 }
