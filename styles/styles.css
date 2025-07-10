@@ -89,3 +89,21 @@ main {
   color: #8987a1;
   padding: 23px 0;
 }
+
+/* productive users section starts */
+.productive-users {
+  background-color: #c7c5ff;
+  margin: 125px 0;
+  border-radius: 25px;
+  padding: 50px 142px;
+}
+
+.productive-users h3 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.users-container {
+  display: flex;
+}
