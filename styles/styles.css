@@ -92,7 +92,7 @@ main {
 
 /* productive users section starts */
 .productive-users {
-  background-color: #c7c5ff;
+  background-color: #dad8ff;
   margin: 125px 0;
   border-radius: 25px;
   padding: 50px 142px;
@@ -118,4 +118,45 @@ main {
   font-size: 20px;
   font-weight: 500;
   color: #757483;
+}
+/* users feedback section starts */
+.users-feedback {
+  margin-bottom: 100px;
+}
+.users-feedback-container {
+  display: flex;
+  gap: 20px;
+}
+
+.user-section {
+  padding: 24px;
+  border: 0.5px solid rgb(236, 234, 234);
+  border-radius: 14px;
+}
+.icons {
+  margin-bottom: 25px;
+}
+.disc h4 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.disc p {
+  font-size: 17px;
+  margin-bottom: 24px;
+  color: #757483;
+}
+.feedback {
+  display: flex;
+  gap: 12px;
+}
+
+.feedback h5 {
+  font-size: 16px;
+  color: #757483;
+}
+
+.feedback p {
+  font-size: 13px;
+  color: #c9c8d6;
 }
