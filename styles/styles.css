@@ -108,7 +108,7 @@ main {
 
 .users-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .users-container h2 {
   font-size: 82px;
