@@ -16,10 +16,11 @@ header {
   background-image: url("../images/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 700px;
 }
 /* share styles*/
 .primary-btn {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700px;
   color: #fff;
   padding: 13px 36px;
@@ -32,6 +33,7 @@ header {
 
 .primary-btn:hover {
   background-color: #221aff;
+  color: orange;
   transform: scale(1.05);
 }
 
@@ -42,10 +44,24 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 0;
 }
 
 nav h2 {
   font-size: 35px;
   font-weight: 1000px;
   color: #4e47ff;
+}
+
+/* banner section starts */
+.banner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 158px 0;
+}
+.banner h2 {
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 37px;
 }
