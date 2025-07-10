@@ -171,7 +171,7 @@ main {
 }
 
 .form h3 {
-  font-size: 99px;
+  font-size: 97px;
   font-weight: 800;
   width: 528px;
 }
@@ -189,7 +189,8 @@ main {
   padding: 20px 20px;
   width: 497px;
   margin-bottom: 19px;
-  border: 0.5px solid gainsboro;
+  border: 0.5px solid rgb(185, 185, 185);
+  border-radius: 10px;
   background-color: #f4f4f4;
 }
 
@@ -201,7 +202,8 @@ main {
   padding: 40px 20px;
   margin-bottom: 20px;
   resize: none;
-  border: 0.5px solid gainsboro;
+  border: 0.5px solid rgb(185, 185, 185);
+  border-radius: 10px;
   background-color: #f4f4f4;
 }
 .form form textarea::placeholder {
